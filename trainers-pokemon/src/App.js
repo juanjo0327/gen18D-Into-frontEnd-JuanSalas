@@ -1,19 +1,24 @@
 import React from 'react';
-import Dashboard from './components/Dashboard';
 import NavBar from "./components/NavBar";
-import SearchFilters from './components/SearchFilters';
+import CreatePages from './pages/CreatePages';
+import AboutPages from './pages/AboutPages';
+import SearchPages from './pages/SearchPages';
+
 function App() {
   return (
     <React.Fragment>
       <div>
-        <span>componente App</span>
+        <span>Componente App!</span>
       </div>
-      <NavBar></NavBar>
-      <SearchFilters></SearchFilters>
-      <Dashboard></Dashboard>
+      
+      <NavBar/>
 
+      <SearchPages/>
+      <CreatePages/>
+      <AboutPages/>
+      
     </React.Fragment>
-    );
+  );
 }
 
 export default App;
