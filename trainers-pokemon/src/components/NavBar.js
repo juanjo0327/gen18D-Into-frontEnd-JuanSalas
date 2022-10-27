@@ -1,8 +1,15 @@
 function NavBar() {
     return (
-      <div>
-        <span>componente NavBar</span>
-      </div>
+      <>
+        <img src="" alt="No Logo"></img>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Nuevo Entrenador</li>
+                <li>Acerca de nosotros</li>
+            </ul>
+        </nav>
+      </>
       );
   }
   
