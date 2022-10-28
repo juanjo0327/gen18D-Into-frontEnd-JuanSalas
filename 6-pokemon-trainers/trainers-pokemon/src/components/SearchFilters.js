@@ -16,6 +16,6 @@ function SearchFilters() {
             </form>
         </div>
     );
-  }
+}
   
-  export default SearchFilters;
+export default SearchFilters;
