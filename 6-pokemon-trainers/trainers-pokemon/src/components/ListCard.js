@@ -1,7 +1,9 @@
 function ListCard(props){
     return(
         <>
-            {props.children}
+            <div className="cards-container container-80">
+                {props.children}
+            </div>
         </>
     );
 }
