@@ -65,7 +65,11 @@ function CreatePage() {
                     <option value="alola">alola</option>
                     <option value="johto">johto</option>
                 </select>
-
+                
+                <h3>Mis datos</h3>
+                <div>
+                    {Object.keys(trainer).map(key => <span>{trainer[key]}<br/></span>)}
+                </div>
                 {/* <input type="checkbox" id="liga1" name="liga1" value="liga1"/>
                 <label for="liga1">liga 1</label><br/>
                 <input type="checkbox" id="liga2" name="liga2" value="liga2"/>

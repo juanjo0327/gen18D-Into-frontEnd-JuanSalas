@@ -35,10 +35,17 @@ const trainersArray = [
     }
 ];
 
+const searchD = {
+    name: '',
+    isChampion: ''
+}
+
 function SearchPage() {
     return(
         <>
-            <SearchFilters/>
+            <SearchFilters name={searchD.name} isChampion={searchD.isChampion}/>
+            name: {searchD.name}
+            isChampion: {searchD.isChampion}
             <ListCard>
                 {trainersArray.map((trainerInArray, index) => <Card key={index} trainerComponent={trainerInArray}/> )}
             </ListCard>
