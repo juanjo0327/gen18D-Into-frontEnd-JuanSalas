@@ -1,11 +1,12 @@
 .card{
-    height: 150px;
-    width: 150px;
-    background-color: green;
-    margin-left: 10px;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(0, 128, 0, 0.9);
+    margin-left: 40px;
     display: inline-block;  
     text-align: center;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .rojo, .azul{
@@ -20,4 +21,15 @@
     margin-left: 5px;
     font-weight: bold;
     font-size: 20px;
+}
+
+.nav-link {
+    color: var(--clr-dark-pink);
+    text-decoration: none;
+  }
+
+.CardStyle{
+    height: 160px;
+    width: 310px;
+    display: inline-block;
 }
