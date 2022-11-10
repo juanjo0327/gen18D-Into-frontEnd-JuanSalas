@@ -1,4 +1,5 @@
-// import image from '../../public/image.png'
+// import { Link } from "react-router-dom";
+
 function NavBar() {
     return (
       <>
@@ -8,8 +9,8 @@ function NavBar() {
                 <img className="image-container"></img>
               </li>
               <li className="nav-item inicio">
-                <a href="#" className="nav-link">
-                    <p>Inicio</p>
+                <a href="#" className="nav-item nav-link">
+                    <p>Peliculas Top</p>
                 </a>  
               </li>
               <li className="nav-item series">
